@@ -1,8 +1,8 @@
-# API REST y CORS con CRUD de Usuarios y Colecciones de Libros
+# API REST y CORS con obtención de usuarios y colecciones de libros
 
 ## 📌 Objetivo del Ejercicio
 
-El objetivo de este ejercicio es que construyas una aplicación **Full Stack** sencilla para gestionar usuarios y sus colecciones de libros. Aprenderás a consumir una API REST desde el frontend y a crear un backend con un CRUD básico.
+El objetivo de este ejercicio es que construyas una aplicación **Full Stack** sencilla para gestionar usuarios y sus colecciones de libros.
 
 ## 📂 Funcionalidades
 
@@ -23,18 +23,18 @@ Vas a desarrollar:
 
 2. **Backend:**
    - Crear un CRUD en Express para:
-     - Obtener todos los usuarios (`GET /api/users`).
-     - Obtener todos los libros (`GET /api/users`).
+     - Obtener todos los usuarios (`GET /users`).
+     - Obtener todos los libros (`GET /books`).
 
 ## 🔗 Endpoints Disponibles
 
 **Usuarios:**
 
-- `GET /api/users` → Obtener todos los usuarios.
+- `https://api-books-ac3j.onrender.com/users` → Obtener todos los usuarios.
 
 **Libros:**
 
-- `GET /api/books` → Obtener todos los libros.
+- `https://api-books-ac3j.onrender.com/books` → Obtener todos los libros.
 
 ## 🛠️ Pasos para Realizar el Ejercicio
 
@@ -58,6 +58,6 @@ Si terminas antes, intenta agregar:
 
 - Un **loader** mientras se cargan los datos.
 - Manejo de **errores y mensajes de confirmación**.
-- Agrega un botón "Ver Colección" en cada usuario para hacer una petición a `GET /api/users/:id` y mostrar su colección de libros.
+- Agrega un botón "Ver Colección" en cada usuario para hacer una petición a `GET /users/:id` y mostrar su colección de libros.
 
 ---
