@@ -22,7 +22,7 @@ Vas a desarrollar:
    - Botón para **mostrar todos los libros**.
 
 2. **Backend:**
-   - Crear un CRUD en Express para:
+   - Crea endpoints en Express para:
      - Obtener todos los usuarios (`GET /users`).
      - Obtener todos los libros (`GET /books`).
 
@@ -36,21 +36,17 @@ Vas a desarrollar:
 
 - `https://api-books-ac3j.onrender.com/books` → Obtener todos los libros.
 
+## ❗Importante
+
+Si probáis la URL desde el navegador la primera vez, puede que tarde un poco en cargar porque el servidor se está iniciando. Si le dais 20 segundos, podréis verlo funcionando correctamente.
+
 ## 🛠️ Pasos para Realizar el Ejercicio
 
-### **1️⃣ Configurar el Frontend**
-
-1. Crea un proyecto con **HTML, CSS y JavaScript**
-2. Usa `fetch` o `axios` para consumir los endpoints de la API REST.
-3. Crea una página y agrega dos botones:
-   - Botón "Mostrar usuarios".
-   - Botón "Mostrar libros".
-
-### **2️⃣ Configurar el Backend**
+### **Configurar el Backend**
 
 1. Crea un servidor con **Express**.
 2. Implementa las rutas mencionadas en los endpoints.
-3. Asegúrate de usar **CORS** para permitir que el frontend se conecte al backend.
+3. Asegúrate de usar **CORS** para permitir que el frontend se conecte al backend. Recuerda que el repositorio del frontend que tienes que forkear es este: https://github.com/Reyeslim/books-collection-front
 
 ## 🚀 Bonus
 
