@@ -42,11 +42,21 @@ Si probáis la URL desde el navegador la primera vez, puede que tarde un poco en
 
 ## 🛠️ Pasos para Realizar el Ejercicio
 
-### **Configurar el Backend**
+### **1️⃣ Configurar el Backend**
 
 1. Crea un servidor con **Express**.
 2. Implementa las rutas mencionadas en los endpoints.
-3. Asegúrate de usar **CORS** para permitir que el frontend se conecte al backend. Recuerda que el repositorio del frontend que tienes que forkear es este: https://github.com/Reyeslim/books-collection-front
+3. Asegúrate de usar **CORS** para permitir que el frontend se conecte al backend.
+
+### **2️⃣ Configurar el Frontend**
+
+Recuerda que el repositorio del frontend que tienes que forkear es este: `https://github.com/Reyeslim/books-collection-front`
+
+1. Crea un proyecto con **HTML, CSS y JavaScript**
+2. Usa `fetch` o `axios` para consumir los endpoints de la API REST.
+3. Crea una página y agrega dos botones:
+   - Botón "Mostrar usuarios".
+   - Botón "Mostrar libros".
 
 ## 🚀 Bonus
 
